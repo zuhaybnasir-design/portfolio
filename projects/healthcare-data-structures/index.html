@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b111c">
+<meta name="description" content="Smart Healthcare C++ group project: arrays versus singly linked lists for patient-record analysis, sorting and searching.">
+<title>Smart Healthcare Data Structures | Zuhayb Nasir Abdi</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header><div class="container topbar"><a class="brand" href="../../index.html"><span class="monogram">ZN</span><span>Zuhayb Nasir Abdi</span></a><nav class="navigation" aria-label="Primary navigation"><a href="../../index.html#projects">Projects</a><a href="../../index.html#about">About</a><a href="../../index.html#contact">Contact</a></nav></div></header>
+<main>
+<div class="container projecthero"><div class="breadcrumb"><a href="../../index.html#projects">← All projects</a> / 06</div>
+<div class="eyebrow" style="margin-top:36px">C++ · DATA STRUCTURES · ALGORITHM ANALYSIS</div>
+<h1>Smart Healthcare: Arrays vs. Linked Lists.</h1>
+<p class="lede">Comparing two custom C++ approaches to analysing patient records across three healthcare facilities — from sorting and searching to billing, memory use, and measured execution time.</p>
+<div class="tagrow"><span class="tag">C++</span><span class="tag">Arrays</span><span class="tag">Singly Linked Lists</span><span class="tag">Algorithms</span><span class="tag">CSV</span></div>
+</div>
+<div class="container">
+<div class="cpp-highlight-grid" aria-label="Project facts">
+<div class="cpp-highlight"><strong>600</strong><span>Records in coursework datasets</span></div>
+<div class="cpp-highlight"><strong>3</strong><span>Healthcare facilities</span></div>
+<div class="cpp-highlight"><strong>2</strong><span>Storage implementations</span></div>
+<div class="cpp-highlight"><strong>O(n²)</strong><span>Selection sort complexity</span></div>
+</div>
+<div class="detail-layout"><div>
+<section class="detail-section"><div class="eyebrow">PROBLEM &amp; APPROACH</div><h2>One dataset, two ways to store it.</h2>
+<p>This October 2026 group coursework assignment compares fixed-capacity arrays with a custom node-based singly linked list. Both console programs read the same CSV records — 200 each from a General Hospital, University Medical Center, and Community Health Clinic — so the analysis can be compared across implementations.</p>
+<p>The programs summarise patient demographics, service use and estimated billing; support sorting by age, visit duration and total medical cost; and evaluate linear, binary and binary-style searching. Both implementations measure comparisons, swaps, elapsed time and approximate memory usage.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">MY DOCUMENTED CONTRIBUTION</div><h2>Linked-list implementation and testing.</h2>
+<p>The submitted <em>CT077-3-2-DSTR</em> workload matrix assigns me <strong>50% of the linked-list program work</strong> and <strong>25% of the documentation/testing work</strong>. This was a four-person academic team submission, so I do not claim sole authorship of either implementation.</p>
+<p>The linked-list version uses a custom <code>PatientList</code> and dynamically allocated nodes. Its records are examined in demographic, billing, sorting, searching, data-quality and facility-comparison operations.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">WHAT WE COMPARED</div><h2>Algorithm trade-offs.</h2>
+<ul>
+<li><strong>Direct access:</strong> an array supports O(1) indexed access; a singly linked list traverses up to O(n) nodes to reach a position.</li>
+<li><strong>Sorting:</strong> both programs use selection sort, which makes 19,900 comparisons for 200 records in the documented experiments.</li>
+<li><strong>Searching:</strong> arrays can use O(log n) binary search once sorted, while linked-list binary-style search still incurs node-traversal overhead.</li>
+<li><strong>Memory:</strong> dynamic linked-list nodes use pointer space beyond the record contents; arrays have simpler contiguous storage but fixed capacity in this implementation.</li>
+</ul>
+</section>
+<section class="detail-section"><div class="eyebrow">DOCUMENTED RESULT</div><h2>Searching and measurement.</h2>
+<p>For an exact-age lookup in 200 records, the report recorded <strong>200 comparisons with linear search</strong> and <strong>6 comparisons with sorted-data search</strong> in both implementations. The documented execution times are single experimental observations, not general performance guarantees; creating a sorted copy also introduces preprocessing cost.</p>
+<p><a class="inline-link" href="documentation.html">Explore the report highlights and performance tables ↗</a></p>
+</section>
+<section class="detail-section"><div class="eyebrow">LIMITATIONS &amp; REPRODUCIBILITY</div><h2>Academic prototype, not hospital software.</h2>
+<p>The assignment uses console-only interaction, sample coursework data and no production database, user authentication or healthcare-grade privacy controls. Its selection sort scales quadratically; the arrays have capacity limits; and performance measurements can vary by machine and run.</p>
+<p>The source code has been uploaded to a <strong>private team GitHub repository</strong>. This public case study intentionally does not expose the repository name containing group members' student IDs. Source access and the original report can be shared with permission.</p>
+</section>
+</div>
+<aside class="info-panel"><h3>Project details</h3>
+<div class="tagrow"><span class="tag">C++17-compatible</span><span class="tag">Console</span><span class="tag">Data Structures</span></div>
+<p><strong style="color:#eaf1f7">Course</strong><br>CT077-3-2-DSTR · Data Structures</p>
+<p><strong style="color:#eaf1f7">Institution</strong><br>Asia Pacific University</p>
+<p><strong style="color:#eaf1f7">Completed</strong><br>October 2026</p>
+<p><strong style="color:#eaf1f7">Contribution evidence</strong><br>Group workload distribution table in submitted documentation</p>
+<p><a class="inline-link" href="documentation.html">Documentation highlights ↗</a></p>
+<p class="small">This page reflects the submitted document and uploaded code. It is not an independently reproduced benchmark.</p>
+</aside></div>
+<div class="projectfootnav"><a href="../../index.html#projects">← All projects</a><a href="#top">Back to top ↑</a></div>
+</div>
+</main>
+<footer><div class="container foot"><span>© 2026 Zuhayb Nasir Abdi · Academic group work credited transparently</span><a class="inline-link" href="../../index.html#projects">Back to projects ↗</a></div></footer>
+</body></html>
