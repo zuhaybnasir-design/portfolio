@@ -8,7 +8,13 @@
 **APU Automotive Service Centre — Java Swing (Group Project, 2026)**  
 Contributed to the development and documentation of a role-based service-centre desktop application featuring appointment workflows, technician assignments, payments and role-specific interfaces. Applied object-oriented software design concepts in a four-person team. *Java source is now available in a private GitHub repository; specific individual coding ownership remains unverified.*
 
-**Smart Healthcare: Arrays vs. Singly Linked Lists — C++ (Group Project, 2026)**  \nContributed to a custom singly linked-list patient-record analysis program and shared documentation/testing for a comparative data-structures coursework project. Examined selection sort, linear and binary-style searching, data handling, memory overhead and measured performance across 600 records from three healthcare facilities. *Submitted workload matrix: 50% of linked-list program work and 25% of documentation/testing; group contribution, not sole authorship.*\n\n**APU MindCare — Conversational AI (Group Project, 2025)**  
+**Smart Healthcare: Arrays vs. Singly Linked Lists — C++ (Group Project, 2026)**  
+Contributed to a custom singly linked-list patient-record analysis program and shared documentation/testing for a comparative data-structures coursework project. Examined selection sort, linear and binary-style searching, data handling, memory overhead and measured performance across 600 records from three healthcare facilities. *Submitted workload matrix: 50% of linked-list program work and 25% of documentation/testing; group contribution, not sole authorship.*
+
+**Learning Assistant in C — Procedural Programming (Source Project)**  
+Developed or contributed to a modular C console application that manages learner profiles, loads educational content from local files, suggests resources using preference/difficulty rules, records learner interactions and provides exercise feedback and progress reports. *Specific individual code ownership and project context have not been independently documented.*
+
+**APU MindCare — Conversational AI (Group Project, 2025)**  
 Contributed implementation analysis and documentation, research on existing conversational support systems, and the group presentation for a Botpress-based student mental-health support chatbot. Explored response flows, resource guidance and usability challenges.
 
 **Four-Star Hotel Network Design — Cisco Packet Tracer (Group Project)**  
