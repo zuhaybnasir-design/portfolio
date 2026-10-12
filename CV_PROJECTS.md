@@ -6,7 +6,7 @@
 ## Selected academic projects
 
 **APU Automotive Service Centre — Java Swing (Group Project, 2026)**  
-Contributed to the development and documentation of a role-based service-centre desktop application featuring appointment workflows, technician assignments, payments and role-specific interfaces. Applied object-oriented software design concepts in a four-person team. *Specific individual coding ownership to be confirmed once source code is provided.*
+Contributed to the development and documentation of a role-based service-centre desktop application featuring appointment workflows, technician assignments, payments and role-specific interfaces. Applied object-oriented software design concepts in a four-person team. *Java source is now available in a private GitHub repository; specific individual coding ownership remains unverified.*
 
 **APU MindCare — Conversational AI (Group Project, 2025)**  
 Contributed implementation analysis and documentation, research on existing conversational support systems, and the group presentation for a Botpress-based student mental-health support chatbot. Explored response flows, resource guidance and usability challenges.
