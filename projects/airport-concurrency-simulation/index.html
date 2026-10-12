@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b111c">
+<meta name="description" content="Java multithreaded airport concurrency simulation with ATC, emergency scheduling, synchronized resources and a shared refuelling truck.">
+<title>Java Airport Concurrency Simulation | Zuhayb Nasir Abdi</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header><div class="container topbar"><a class="brand" href="../../index.html"><span class="monogram">ZN</span><span>Zuhayb Nasir Abdi</span></a><nav class="navigation" aria-label="Primary navigation"><a href="../../index.html#projects">Projects</a><a href="../../index.html#about">About</a><a href="../../index.html#contact">Contact</a></nav></div></header>
+<main>
+<div class="container projecthero">
+<div class="breadcrumb"><a href="../../index.html#projects">← All projects</a> / 08</div>
+<div class="eyebrow" style="margin-top:36px">JAVA · CONCURRENT PROGRAMMING · THREAD SYNCHRONIZATION</div>
+<h1>Airport Concurrency Simulation.</h1>
+<p class="lede">A console-based Java airport simulation coordinating six aircraft, a single runway, three gates and one shared refuelling truck through explicit thread synchronization.</p>
+<div class="tagrow"><span class="tag">Java</span><span class="tag">Threads</span><span class="tag">Synchronization</span><span class="tag">wait / notifyAll</span><span class="tag">Eclipse</span></div>
+</div>
+<div class="container">
+<div class="cpp-highlight-grid" aria-label="Simulation resources">
+<div class="cpp-highlight"><strong>6</strong><span>Aircraft threads</span></div>
+<div class="cpp-highlight"><strong>3</strong><span>Gates</span></div>
+<div class="cpp-highlight"><strong>1</strong><span>Shared runway</span></div>
+<div class="cpp-highlight"><strong>1</strong><span>Refuelling truck</span></div>
+</div>
+<div class="detail-layout">
+<div>
+<section class="detail-section">
+<div class="eyebrow">PROJECT OVERVIEW</div><h2>Coordinating shared airport resources.</h2>
+<p>Six plane threads progress through landing requests, runway use, docking, passenger disembarkation, ground-crew cleaning and refuelling, passenger boarding, and eventual take-off. Arrivals are spaced by zero to two seconds, and the simulation limits airport ground occupancy to three aircraft.</p>
+<p>An Air Traffic Control (ATC) thread manages landing and take-off requests and reserves the runway and gates. A dedicated refuelling-truck thread processes requests from multiple planes.</p>
+</section>
+<section class="detail-section">
+<div class="eyebrow">MULTITHREADING &amp; LOCKING</div><h2>Explicit concurrency primitives.</h2>
+<p>The Java classes extend <code>Thread</code> and coordinate with <code>synchronized</code>, <code>wait()</code> and <code>notifyAll()</code>. ATC manages separate emergency landing, normal landing and take-off queues, protects runway and gate state, and signals waiting requests when a resource becomes available.</p>
+<p>Independent passenger and ground-crew threads allow tasks to overlap, while a single refuelling worker ensures only one aircraft is serviced by the truck at a time.</p>
+</section>
+<section class="detail-section">
+<div class="eyebrow">EMERGENCY SCENARIO</div><h2>Prioritizing a fuel-shortage aircraft.</h2>
+<p><code>Plane-6</code> is configured to request an emergency landing. The ATC scheduling logic checks emergency requests before normal arrivals when it can safely assign a runway and gate. The refuelling worker also checks its urgent queue before queued normal requests.</p>
+<p>Priority remains conditional on shared resource availability; this is a classroom simulation rather than a real air-traffic safety system.</p>
+</section>
+<section class="detail-section">
+<div class="eyebrow">OBSERVABILITY</div><h2>What the example output shows.</h2>
+<p>The repository contains a sample console log where six aircraft complete their tasks, every gate is empty at the end, and the summary reports 276 passengers boarded. The report also prints minimum, average and maximum waiting times.</p>
+<p>These are <strong>sample-run results</strong>: operating-system scheduling and thread interleaving can change their ordering and elapsed timings. The included presentation outline describes how to demonstrate the key shared resources and emergency-priority scenario.</p>
+</section>
+<section class="detail-section">
+<div class="eyebrow">ENGINEERING EVIDENCE</div><h2>Source code and limitations.</h2>
+<p>The Eclipse project contains <code>ATC.java</code>, <code>Plane.java</code>, <code>RefuelTruck.java</code>, passenger and ground-crew worker classes, request-signalling objects, and a synchronized statistics collector. The code demonstrates important concurrency ideas but has not been independently stress-tested here.</p>
+<p>The included repository notes describe CT074-3-2 Concurrent Programming coursework. No full final report or verified individual-contribution record was included in this upload, so specific authorship is not asserted.</p>
+<p><a class="inline-link" href="https://github.com/zuhaybnasir-design/airportsimulation" target="_blank" rel="noopener noreferrer">Source repository (private; access required) ↗</a></p>
+</section>
+</div>
+<aside class="info-panel">
+<h3>Project details</h3>
+<div class="tagrow"><span class="tag">Java</span><span class="tag">Concurrency</span><span class="tag">Console</span></div>
+<p><strong style="color:#eaf1f7">Course context</strong><br>CT074-3-2 Concurrent Programming</p>
+<p><strong style="color:#eaf1f7">Editor</strong><br>Eclipse IDE</p>
+<p><strong style="color:#eaf1f7">Architecture</strong><br>ATC and aircraft threads, one runway and refuelling worker</p>
+<p><strong style="color:#eaf1f7">Evidence</strong><br>Java source, sample output and presentation script</p>
+<p><a class="inline-link" href="https://github.com/zuhaybnasir-design/airportsimulation" target="_blank" rel="noopener noreferrer">Browse the code (private) ↗</a></p>
+<p class="small">Source inspected, not independently run. Project ownership and coursework assessment outcomes are not independently established.</p>
+</aside>
+</div>
+<div class="projectfootnav"><a href="../../index.html#projects">← All projects</a><a href="#top">Back to top ↑</a></div>
+</div>
+</main>
+<footer><div class="container foot"><span>© 2026 Zuhayb Nasir Abdi · Technical portfolio</span><a class="inline-link" href="../../index.html#projects">Back to projects ↗</a></div></footer>
+</body>
+</html>
