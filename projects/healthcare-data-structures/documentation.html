@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b111c"><meta name="description" content="Public documentation summary for the C++ Smart Healthcare data-structures coursework.">
+<title>Smart Healthcare C++ Documentation | Zuhayb Nasir Abdi</title><link rel="stylesheet" href="../../styles.css"></head>
+<body>
+<header><div class="container topbar"><a class="brand" href="../../index.html"><span class="monogram">ZN</span><span>Zuhayb Nasir Abdi</span></a><nav class="navigation"><a href="../../index.html#projects">Projects</a><a href="../../index.html#about">About</a><a href="../../index.html#contact">Contact</a></nav></div></header>
+<main><div class="container projecthero">
+<div class="breadcrumb"><a href="./">← Smart Healthcare Data Structures</a> / Documentation</div>
+<div class="eyebrow" style="margin-top:36px">SUBMITTED REPORT · OCTOBER 2026</div><h1>How the two implementations compare.</h1>
+<p class="lede">A privacy-conscious overview of the 30-page <em>Data Structures Solution Work Documentation</em> submitted for the October 2026 C++ group coursework.</p></div>
+<div class="container"><div class="detail-layout"><div>
+<section class="detail-section"><div class="eyebrow">PROJECT SCOPE</div><h2>Three datasets, six record fields.</h2>
+<p>The report documents 600 patient records across a General Hospital, a University Medical Center and a Community Health Clinic. The CSV fields are patient ID, age, care type, visit duration, base cost per hour and number of yearly visits. Total medical cost is calculated by multiplying visit duration, hourly cost and visit frequency.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">DATA STRUCTURES</div><h2>Array vs singly linked list.</h2>
+<p>The array version stores patients in fixed-capacity contiguous storage, giving direct indexed access. The linked-list version implements a custom node type with patient data and a next-node pointer. It can grow dynamically but incurs extra memory overhead and must traverse nodes for indexed access.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">MEASURED SEARCH EXPERIMENT</div><h2>Comparison counts for exact-age lookup.</h2>
+<p>For the specific 200-record, age-40 experiment presented in the report:</p>
+<div class="cpp-metric-table-wrap"><table class="cpp-metric-table">
+<thead><tr><th>Structure</th><th>Search</th><th>Comparisons</th><th>Recorded search time</th></tr></thead>
+<tbody><tr><td>Array</td><td>Linear, unsorted</td><td>200</td><td>19,667 ns</td></tr>
+<tr><td>Array</td><td>Binary, sorted</td><td>6</td><td>375 ns</td></tr>
+<tr><td>Singly linked list</td><td>Linear, unsorted</td><td>200</td><td>44,708 ns</td></tr>
+<tr><td>Singly linked list</td><td>Binary-style, sorted</td><td>6</td><td>1,667 ns</td></tr></tbody></table></div>
+<p class="muted small">These are the report's single observed search timings. They exclude the sorting step itself; binary-style search on a list still requires traversal. They are not controlled repeated-benchmark averages or universal speed comparisons.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">SELECTION SORT</div><h2>19,900 comparisons for 200 records.</h2>
+<p>Both programs sort by age, visit duration or total medical cost using selection sort. As documented in Section 6.1, sorting 200 items involves <code>200 × 199 ÷ 2 = 19,900</code> comparisons, matching the program results. Swaps and elapsed time vary by input order, sort key and computing conditions.</p>
+</section>
+<section class="detail-section"><div class="eyebrow">DOCUMENT GUIDE</div><h2>What's covered in the report.</h2>
+<ul>
+<li><strong>Pages 1–5:</strong> Workload distribution, objectives, healthcare datasets, data structures and implementation descriptions</li>
+<li><strong>Pages 6–22:</strong> Console screenshots: loading, menus, demographics, expenditure, sorting, searching and executive dashboard</li>
+<li><strong>Pages 23–26:</strong> Sorting/search performance tables, complexity comparisons, memory estimates and facility results</li>
+<li><strong>Final sections:</strong> Recommendations, limitations, discussion, conclusion, future improvements and references</li>
+</ul></section>
+<section class="detail-section"><div class="eyebrow">LIMITATIONS &amp; PRIVACY</div><h2>Not a deployed healthcare system.</h2>
+<p>The documentation notes fixed array capacity, linked-list memory overhead, O(n²) selection sorting, variability in timing measurements, and the absence of a GUI, database and healthcare-grade security. This was an academic comparison, not a clinical information system.</p>
+<p>The original report includes students' names/IDs and is therefore <strong>not posted in full</strong> on this public portfolio. Its workload matrix attributes 50% of linked-list programming and 25% of documentation/testing to the portfolio owner; the project remains a group submission.</p>
+</section>
+</div>
+<aside class="info-panel"><h3>Report reference</h3><p><strong style="color:#eaf1f7">Module</strong><br>CT077-3-2-DSTR</p><p><strong style="color:#eaf1f7">Title</strong><br>Comparative Analysis of Arrays and Singly Linked Lists for Sorting and Searching in Smart Healthcare &amp; Hospital Patient Management System</p><p><strong style="color:#eaf1f7">Submission</strong><br>9 October 2026</p><p><strong style="color:#eaf1f7">Format</strong><br>30-page group documentation</p><p class="small">Project numbers and benchmark results are taken from the submitted report; source files were reviewed but not compiled here.</p><p><a class="inline-link" href="./">Return to the case study ↗</a></p></aside>
+</div><div class="projectfootnav"><a href="./">← Project page</a><a href="#top">Back to top ↑</a></div></div>
+</main>
+<footer><div class="container foot"><span>© 2026 Zuhayb Nasir Abdi · Group coursework credited transparently</span><a class="inline-link" href="../../index.html#projects">Projects ↗</a></div></footer>
+</body></html>
