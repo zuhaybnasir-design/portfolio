@@ -29,7 +29,7 @@ Java · Swing · OOP · File persistence
 
 The 56-page group report contains the use-case and UML class diagrams (pages 12–16), original screenshots of the GUI and dashboards (pages 17–34), a technical discussion of object-oriented concepts (pages 35–45), and documented project limitations (page 49).
 
-[Read the public documentation summary and page-by-page guide](DOCUMENTATION_NOTES.md). The original PDF includes student identifiers and user-data examples, so it is deliberately not published here.
+[Read the public documentation summary and page-by-page guide](documentation.html). The original PDF includes student identifiers and user-data examples, so it is deliberately not published here.
 
 ## Evidence and limitations
 
