@@ -16,7 +16,7 @@ The website is intended for GitHub Pages at https://zuhaybnasir-design.github.io
 
 - Team work is credited as team work; no undocumented coding ownership is claimed.
 - No sensitive personal student IDs, signatures or passwords are intentionally included in public project pages.
-- Java source, full course reports and Packet Tracer simulation are not published here pending review of authorizations and potentially embedded credentials.
+- The automotive service centre's Java source is now in a separate **private** GitHub repository; the portfolio case study links to it with access restrictions noted. Other coursework artifacts remain subject to authorization and privacy reviews.
 - SAS raw and cleaned CSVs plus provided SAS code are linked within the data management project. Verify the original dataset's redistribution rights before further reuse.
 - Visuals on the site are clearly labeled concept illustrations, not screenshots from the original projects.
 
