@@ -14,6 +14,9 @@ Contributed to a custom singly linked-list patient-record analysis program and s
 **Learning Assistant in C — Procedural Programming (Source Project)**  
 Developed or contributed to a modular C console application that manages learner profiles, loads educational content from local files, suggests resources using preference/difficulty rules, records learner interactions and provides exercise feedback and progress reports. *Specific individual code ownership and project context have not been independently documented.*
 
+**Airport Concurrency Simulation — Java Multithreading (Coursework Project, 2026)**  
+Reviewed and documented an Eclipse-ready Java console simulation coordinating six aircraft, one runway, three gates and a shared refuelling truck. Demonstrates synchronized ATC request queues, `wait()/notifyAll()`, thread coordination and emergency-landing priority; includes sample output and end-of-run statistics. *Individual code authorship has not been independently verified.*
+
 **APU MindCare — Conversational AI (Group Project, 2025)**  
 Contributed implementation analysis and documentation, research on existing conversational support systems, and the group presentation for a Botpress-based student mental-health support chatbot. Explored response flows, resource guidance and usability challenges.
 
