@@ -25,6 +25,12 @@ The group application organizes appointments, payments, service pricing and cust
 
 Java · Swing · OOP · File persistence
 
+## Coursework documentation
+
+The 56-page group report contains the use-case and UML class diagrams (pages 12–16), original screenshots of the GUI and dashboards (pages 17–34), a technical discussion of object-oriented concepts (pages 35–45), and documented project limitations (page 49).
+
+[Read the public documentation summary and page-by-page guide](DOCUMENTATION_NOTES.md). The original PDF includes student identifiers and user-data examples, so it is deliberately not published here.
+
 ## Evidence and limitations
 
 The Java source code has since been uploaded to a [separate private repository](https://github.com/zuhaybnasir-design/APU_ASC). Access requires repository permission. The source includes Eclipse project files and launch scripts, but it has not been independently runtime-tested here. Local user and appointment records should be reviewed before public release.
