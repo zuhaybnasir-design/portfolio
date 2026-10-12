@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b111c">
+<meta name="description" content="Technical documentation highlights from the APU Automotive Service Centre Java group coursework report.">
+<title>APU-ASC Documentation Highlights | Zuhayb Nasir Abdi</title>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header><div class="container topbar"><a class="brand" href="../../index.html"><span class="monogram">ZN</span><span>Zuhayb Nasir Abdi</span></a><nav class="navigation" aria-label="Primary navigation"><a href="../../index.html#projects">Projects</a><a href="../../index.html#about">About</a><a href="../../index.html#contact">Contact</a></nav></div></header>
+<main>
+<div class="container projecthero">
+<div class="breadcrumb"><a href="./">← Automotive Service Centre</a> / Documentation</div>
+<div class="eyebrow" style="margin-top:36px">PROJECT EVIDENCE · OODJ GROUP COURSEWORK</div>
+<h1>Documentation highlights.</h1>
+<p class="lede">A guided summary of the original 56-page Object Oriented Development with Java report, completed 29 May 2026. The report is a four-person group submission with equal 25% workload allocations.</p>
+<div class="tagrow"><span class="tag">Java Swing</span><span class="tag">UML</span><span class="tag">OOP</span><span class="tag">Coursework</span></div>
+</div>
+<div class="container">
+<div class="detail-layout">
+<div>
+<section class="detail-section"><div class="eyebrow">FUNCTIONAL DESIGN</div><h2>Four user roles</h2>
+<p>The application separates manager, counter-staff, technician and customer tasks into role-specific dashboards. Managers oversee staff, pricing and reports; counter staff coordinate customers, appointments and payments; technicians complete jobs and record feedback; customers review their histories and add comments.</p>
+<p>The report documents normal service (60 minutes) and major service (180 minutes), an interval-overlap check that prevents assigning an already-booked technician, and an appointment workflow from <code>PENDING</code> through <code>COMPLETED</code> to <code>PAID</code>.</p></section>
+<section class="detail-section"><div class="eyebrow">SOFTWARE ENGINEERING</div><h2>Object-oriented design</h2>
+<p>The class model has an abstract <code>User</code> class with <code>Manager</code>, <code>CounterStaff</code>, <code>Technician</code> and <code>Customer</code> subclasses, a <code>Reportable</code> interface, and type-safe enums. <code>FileHandler</code> manages local text-file persistence.</p>
+<p>The report relates implementation examples to abstraction, encapsulation, inheritance and polymorphism, including overridden methods, validated setters and interface-based reporting.</p></section>
+<section class="detail-section"><div class="eyebrow">DOCUMENTATION GUIDE</div><h2>What's in the report?</h2>
+<ul>
+<li><strong>Pages 5–11:</strong> Introduction and use-case specifications</li>
+<li><strong>Pages 12–16:</strong> UML use-case and class diagrams</li>
+<li><strong>Pages 17–34:</strong> Actual Swing application screenshots, role selection and dashboards</li>
+<li><strong>Pages 35–45:</strong> Object-oriented implementation concepts</li>
+<li><strong>Pages 46–48:</strong> Password hashing, scheduling conflict checks, Java2D icons and error handling</li>
+<li><strong>Pages 49–50:</strong> Limitations, conclusion and future enhancements</li>
+<li><strong>Pages 52–56:</strong> Sample pipe-delimited data-file formats</li>
+</ul></section>
+<section class="detail-section"><div class="eyebrow">ENGINEERING TRADE-OFFS</div><h2>Documented limitations</h2>
+<p>This coursework system does not provide concurrent multi-instance data access, a rescheduling workflow, database referential integrity, advanced search, email notifications or persistent sessions. It demonstrates SHA-256 password hashing but is not intended as a production authentication system.</p></section>
+<section class="detail-section"><div class="eyebrow">PRIVACY &amp; ATTRIBUTION</div><h2>About the full report</h2>
+<p>The original PDF contains students' identifiers and example user records. Those details have been omitted from this public summary. The report lists four equal workload allocations but does not assign authorship of individual Java classes.</p>
+<p><a class="inline-link" href="./">Back to the project case study ↗</a></p></section>
+</div>
+<aside class="info-panel"><h3>Project evidence</h3><p><strong style="color:#eaf1f7">Document</strong><br>56-page academic group report</p><p><strong style="color:#eaf1f7">Module</strong><br>Object Oriented Development with Java</p><p><strong style="color:#eaf1f7">Source code</strong><br><a class="inline-link" href="https://github.com/zuhaybnasir-design/APU_ASC" target="_blank" rel="noopener noreferrer">APU_ASC (private) ↗</a></p><p><strong style="color:#eaf1f7">Group contribution</strong><br>Four members; equal reported workload</p><p class="small">The original PDF is not distributed publicly here. This page summarizes the submitted material and is not an independent application test.</p></aside>
+</div>
+<div class="projectfootnav"><a href="./">← Back to APU Automotive Service Centre</a><a href="#top">Back to top ↑</a></div>
+</div>
+</main>
+<footer><div class="container foot"><span>© 2026 Zuhayb Nasir Abdi · Group coursework credited transparently</span><a class="inline-link" href="../../index.html#projects">All projects ↗</a></div></footer>
+</body>
+</html>
