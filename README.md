@@ -5,7 +5,8 @@ A professional portfolio presenting six academic group projects with transparent
 **[View project homepage](index.html)**
 
 - [APU Automotive Service Centre](projects/automotive-service-centre/) — A role-based Java Swing desktop application for an automotive service workshop.
-- [Smart Healthcare: Arrays vs. Linked Lists (C++)](projects/healthcare-data-structures/) — A two-implementation C++ comparison of data structures, sorting/searching and memory usage using healthcare records.\n- [APU MindCare](projects/apu-mindcare-chatbot/) — A student mental-health support chatbot prototype built for supportive conversations and campus-resource guidance.
+- [Smart Healthcare: Arrays vs. Linked Lists (C++)](projects/healthcare-data-structures/) — A two-implementation C++ comparison of data structures, sorting/searching and memory usage using healthcare records.
+- [APU MindCare](projects/apu-mindcare-chatbot/) — A student mental-health support chatbot prototype built for supportive conversations and campus-resource guidance.
 - [Four-Star Hotel Network Design](projects/hotel-network-design/) — A departmental network topology and addressing design for branches of a hotel network.
 - [Take of World — Tour Management System](projects/take-of-world-tms/) — A tour-management project covering booking, payment, vendor coordination and software-design methods.
 - [WHO Life Expectancy Data Management](projects/who-life-expectancy-data-management/) — A healthcare data-management and exploratory analysis project based on country-level life-expectancy indicators.
