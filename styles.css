@@ -32,3 +32,12 @@ section{padding:76px 0}.sectionhead{display:flex;justify-content:space-between;a
 .c-assistant-title{font-size:clamp(.87rem,1.7vw,1.12rem);font-weight:800;letter-spacing:.18em;color:#e3f0f6}
 .c-assistant-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:7px}
 .c-assistant-chips span{border:1px solid #42778a;color:#b3dde3;border-radius:20px;padding:4px 10px;font-size:.67rem;letter-spacing:.08em;background:#0d2835}
+
+/* Airport project illustration, created with typography rather than fake screenshots */
+.airport-cover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:25px;background:radial-gradient(ellipse at 50% 10%,#2e647e,#152b45 55%,#0b1524 100%);text-align:center;color:#e9f7fa}
+.airport-cover-plane{font-size:4rem;line-height:1;color:var(--aqua);transform:rotate(-16deg);text-shadow:0 4px 24px #6ee9cf4a}
+.airport-cover-title{font-size:clamp(1rem,2.3vw,1.5rem);line-height:1.1;font-weight:830;letter-spacing:.12em}
+.airport-cover-line{font-size:.75rem;color:#bcd7e5;letter-spacing:.06em}
+.airport-cover-metrics{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-top:9px}
+.airport-cover-metrics span{font-size:.65rem;font-weight:780;letter-spacing:.08em;border:1px solid #436c89;background:#152a43;padding:5px 8px;border-radius:20px}
+@media(max-width:540px){.airport-cover-plane{font-size:3.2rem}.airport-cover-title{font-size:1rem}.airport-cover-line{font-size:.64rem}}
