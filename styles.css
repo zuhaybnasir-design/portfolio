@@ -25,3 +25,10 @@ section{padding:76px 0}.sectionhead{display:flex;justify-content:space-between;a
 .cpp-metric-table tr:last-child td{border-bottom:0}
 @media(max-width:800px){.cpp-highlight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){.cpp-highlight-grid{gap:9px}.cpp-highlight{padding:15px}.cpp-highlight strong{font-size:1.6rem}.cpp-cover-mark{font-size:2.7rem}.cpp-cover-pair{gap:5px}.cpp-cover-pair span{padding:5px 7px}}
+
+/* C learning assistant card: illustrative typography, not a program screenshot */
+.c-assistant-cover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:28px;background:radial-gradient(circle at 80% 15%,#2b5874,#132635 56%,#0c1827 100%);text-align:center;color:#eef8fa}
+.c-assistant-symbol{font-size:clamp(2.8rem,5vw,4rem);font-weight:850;line-height:1;color:var(--aqua);letter-spacing:-.06em}
+.c-assistant-title{font-size:clamp(.87rem,1.7vw,1.12rem);font-weight:800;letter-spacing:.18em;color:#e3f0f6}
+.c-assistant-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:7px}
+.c-assistant-chips span{border:1px solid #42778a;color:#b3dde3;border-radius:20px;padding:4px 10px;font-size:.67rem;letter-spacing:.08em;background:#0d2835}
