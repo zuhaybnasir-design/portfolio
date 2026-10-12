@@ -1,12 +1,13 @@
 # Zuhayb Nasir Abdi — Technical Portfolio
 
-A professional portfolio presenting seven academic and personal projects with transparent individual contributions, built as a static responsive website.
+A professional portfolio presenting eight academic and personal projects with transparent individual contributions, built as a static responsive website.
 
 **[View project homepage](index.html)**
 
 - [APU Automotive Service Centre](projects/automotive-service-centre/) — A role-based Java Swing desktop application for an automotive service workshop.
 - [Smart Healthcare: Arrays vs. Linked Lists (C++)](projects/healthcare-data-structures/) — A two-implementation C++ comparison of data structures, sorting/searching and memory usage using healthcare records.
 - [Learning Assistant in C](projects/learning-assistant-c/) — A C console prototype with learner profile management, learning-resource recommendations, activity logs and progress reports.
+- [Java Airport Concurrency Simulation](projects/airport-concurrency-simulation/) — Thread-coordinated airport operations with ATC, shared gates, one runway, emergency landing priority and refuelling. 
 - [APU MindCare](projects/apu-mindcare-chatbot/) — A student mental-health support chatbot prototype built for supportive conversations and campus-resource guidance.
 - [Four-Star Hotel Network Design](projects/hotel-network-design/) — A departmental network topology and addressing design for branches of a hotel network.
 - [Take of World — Tour Management System](projects/take-of-world-tms/) — A tour-management project covering booking, payment, vendor coordination and software-design methods.
@@ -17,6 +18,8 @@ The Smart Healthcare case study includes a [public documentation highlights page
 The automotive case study includes a [public documentation summary](projects/automotive-service-centre/documentation.html), based on the original coursework report without reproducing student identifiers or example account records.
 
 The C learning assistant is described from its uploaded C source; its separate GitHub repository is currently private. It is rule-based software, not a trained AI system.
+
+The airport concurrency case study is based on uploaded Java source, presentation notes and sample output. Its GitHub repository is private, and exact individual contribution ownership was not provided.
 
 The website is intended for GitHub Pages at https://zuhaybnasir-design.github.io/portfolio/ once Pages is enabled in repository settings.
 
