@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b111c">
+<meta name="description" content="Learning Assistant C console project: learner profiles, resource recommendations, activity logs, feedback and progress reports.">
+<title>Learning Assistant in C | Zuhayb Nasir Abdi</title><link rel="stylesheet" href="../../styles.css"></head>
+<body><header><div class="container topbar"><a class="brand" href="../../index.html"><span class="monogram">ZN</span><span>Zuhayb Nasir Abdi</span></a><nav class="navigation" aria-label="Primary navigation"><a href="../../index.html#projects">Projects</a><a href="../../index.html#about">About</a><a href="../../index.html#contact">Contact</a></nav></div></header>
+<main><div class="container projecthero">
+<div class="breadcrumb"><a href="../../index.html#projects">← All projects</a> / 07</div>
+<div class="eyebrow" style="margin-top:36px">C PROGRAMMING · RECOMMENDATION LOGIC · FILE HANDLING</div>
+<h1>Learning Assistant in C.</h1>
+<p class="lede">A console-based educational assistant that manages learner records, suggests study resources using rules, logs learning activities and produces progress summaries.</p>
+<div class="tagrow"><span class="tag">C</span><span class="tag">Procedural Programming</span><span class="tag">File I/O</span><span class="tag">Recommendation Rules</span></div></div>
+<div class="container">
+<div class="cpp-highlight-grid">
+<div class="cpp-highlight"><strong>8</strong><span>Menu actions</span></div>
+<div class="cpp-highlight"><strong>5</strong><span>C source modules</span></div>
+<div class="cpp-highlight"><strong>100</strong><span>Maximum learner slots</span></div>
+<div class="cpp-highlight"><strong>Local</strong><span>Text-file storage</span></div>
+</div>
+<div class="detail-layout">
+<div>
+<section class="detail-section"><div class="eyebrow">OVERVIEW</div><h2>Keeping learner records organised.</h2>
+<p>The program is divided into C source and header modules for learner management, content loading, recommendations and utility functions. Its main menu supports adding and updating learners, removing profiles, viewing records, recording activities, recommending resources, viewing progress and attempting exercises.</p>
+<p>Local text files store learner profiles and learning resources. Activity logs record a learner, an action and a timestamp for later feedback analysis.</p></section>
+<section class="detail-section"><div class="eyebrow">RECOMMENDATION LOGIC</div><h2>Personalisation through simple rules.</h2>
+<p>The current recommender compares a learner's preferred resource type and skill level with content type and difficulty. Matching resources are shown and can be logged as recommendations. This is a <strong>rule-based feature</strong>, not a trained recommendation model.</p>
+<p>The difficulty comparison deserves further validation, since the current condition may recommend items that are harder than the learner's level.</p></section>
+<section class="detail-section"><div class="eyebrow">INTERACTION &amp; FEEDBACK</div><h2>Exercises and progress reports.</h2>
+<ul>
+<li>Read a list of available exercises from the local content dataset.</li>
+<li>Record pass/fail exercise attempts and log the action.</li>
+<li>Display preset feedback based on recorded failed attempts.</li>
+<li>Generate a learner report with recorded skill level, preferred content type and progress score.</li>
+</ul></section>
+<section class="detail-section"><div class="eyebrow">IMPLEMENTATION</div><h2>How it's structured.</h2>
+<p>The repository includes <code>main.c</code>, <code>learner.c</code>, <code>content.c</code>, <code>recommender.c</code>, <code>utils.c</code> and matching header files. It uses C structures, fixed-size arrays, file I/O, strings, conditionals and loops.</p>
+<p><a class="inline-link" href="https://github.com/zuhaybnasir-design/learning_assistant_c" target="_blank" rel="noopener noreferrer">View source repository (currently private) ↗</a></p>
+</section>
+<section class="detail-section"><div class="eyebrow">HONEST SCOPE</div><h2>Prototype limitations.</h2>
+<p>Source inspection suggests improvements around input validation, file capacity checks, portable case-insensitive string handling and unique learner IDs. The program has no authentication or production privacy controls. No external machine-learning service is used.</p>
+<p>The code has been reviewed at source level for this portfolio description, but has not been independently compiled or functionally tested. The source repository remains private while its existing interaction logs are reviewed.</p></section>
+</div>
+<aside class="info-panel">
+<h3>Project details</h3>
+<div class="tagrow"><span class="tag">C</span><span class="tag">CLI</span><span class="tag">VS Code</span><span class="tag">File Persistence</span></div>
+<p><strong style="color:#eaf1f7">Project type</strong><br>Educational programming prototype</p>
+<p><strong style="color:#eaf1f7">Core components</strong><br>Learners · Content · Recommender · Logging</p>
+<p><strong style="color:#eaf1f7">Evidence</strong><br>Uploaded C source files; no separate report provided</p>
+<p><strong style="color:#eaf1f7">Repository</strong><br><a class="inline-link" href="https://github.com/zuhaybnasir-design/learning_assistant_c" target="_blank" rel="noopener noreferrer">Learning Assistant (private) ↗</a></p>
+<p class="small">Authorship of individual functions or coursework group contributions has not been independently verified.</p>
+</aside></div>
+<div class="projectfootnav"><a href="../../index.html#projects">← All projects</a><a href="#top">Back to top ↑</a></div>
+</div></main>
+<footer><div class="container foot"><span>© 2026 Zuhayb Nasir Abdi · Technical portfolio</span><a class="inline-link" href="../../index.html#projects">Back to projects ↗</a></div></footer>
+</body></html>
