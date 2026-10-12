@@ -10,6 +10,8 @@ A professional portfolio presenting five academic group projects with transparen
 - [Take of World — Tour Management System](projects/take-of-world-tms/) — A tour-management project covering booking, payment, vendor coordination and software-design methods.
 - [WHO Life Expectancy Data Management](projects/who-life-expectancy-data-management/) — A healthcare data-management and exploratory analysis project based on country-level life-expectancy indicators.
 
+The automotive case study includes a [public documentation summary](projects/automotive-service-centre/documentation.html), based on the original coursework report without reproducing student identifiers or example account records.
+
 The website is intended for GitHub Pages at https://zuhaybnasir-design.github.io/portfolio/ once Pages is enabled in repository settings.
 
 ### Important notes
